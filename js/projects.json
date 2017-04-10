@@ -1,0 +1,121 @@
+{"projects":[
+	{"name":"Street Fighter II Character App",
+	 "dates":"April 2017",
+	 "description":[
+		"This project is features the characters from the 1991 game Street Fighter II. Using this app, you can look up the original eight playable characters and view various stats, information, and the steps to execute their famous special moves.",
+         "The app was made using the React.js library with minor CSS. The data is rendered asynchronously."
+        ],
+	 "imgs":[
+		{"src":"media/streetfighterapp_characterlist.jpg",
+		 "alt":"The project features the original eight playable characters from the 1991 game Street Fighter II."},
+		{"src":"media/streetfighterapp_charactersearch.png",
+		 "alt":"The app is initiated using a search function to find the characters."},
+        {"src":"media/streetfighterapp_chunlipage.jpg",
+         "alt":"Each character has a page that features various stats and information including their speed and power levels and their winning tagline."},
+        {"src": "media/streetfighterapp_dhalsimpage.jpg",
+         "alt":"Each character page also features a section showing the character's special moves and how they can be executed."}
+         ],
+	 "link":"",
+	 "link_description":"Click here to view the code, or download it and try it for yourself.",
+     "languages":"React.js"
+    },
+    
+    {"name":"Inspire",
+	 "dates":"December 2015 - May 2016",
+	 "description":[
+		"The Inspire project was a physical interactive installation for the Rock and Roll Hall of Fame and was presented at the 2016 ImagineRIT to the large crowds that came to experience it. The project allowed two users to pick from a select group of musical artists from different decades and then generated an artist that was most similar to or was a common influencer of the chosen artists. Images of the artists were then projected onto a spire allowing everyone in the room to enjoy the discovery.",
+		"The Inspire experience was created by a mixed group of interactive designers and developers working from the project's beginning concept stages all the way to the actual presentation and postmortem. I worked on beginning research and prototyping of the Rovi API that allowed us gather information about similar and influencing artists as well as researching similar projects. I then focused on getting the images to project properly onto the spire's flat surfaces which was done using OpenFrameworks in C++."
+		],
+	 "imgs":[
+		{"src":"media/inspire_1.jpg",
+		 "alt":"Images of the artists were then projected onto a spire allowing everyone in the room to enjoy the discovery."},
+		{"src":"media/inspire_2.jpg",
+		 "alt":"The spire itself stood about 9 feet tall."},
+		{"src":"media/inspire_4.jpg",
+		 "alt":"A shot of the Inspire and the touchscreen we used."},
+		{"src":"media/inspire_5.jpg",
+		 "alt":"The project allowed two users to pick from a select group of musical artists."}
+		 ],
+	 "link":"https://youtu.be/bb5l5yQXZ5c",
+	 "link_description":"Here is a highlight reel from ImagineRIT that was presented at our postmortem.",
+     "languages":"JS, C++ (OpenFrameworks)"
+	},
+	 
+	{"name":"Fragile Equilibrium",
+	 "dates":"August 2016 - December 2016",
+	 "description":[
+		"Fragile Equilibrium is a side-scroller shoot-em-up where the user is forced to deal with a relentless onslaught of enemies from one side of the screen while simultaneously dealing with the game's beautiful fracturing world on the other side because pieces of the game's screen break off as the player plays. The player always has the choice of when to piece the world back together. The game tracks how a player decides to deal with these issues rewarding, and punishing, a player based on individual playstyles. The player must balance their playstyle, balance how much of the screen they can afford to watch decay away, and balance the game's beauty with its depravity.",
+		 "The game was made by a team through the MAGIC Spells Studios at RIT. I mainly worked on developing the game's various main menu screens and the game's HUD based on sketches from the designers. This included adding the score, changing the game's volume, and ensuring all the buttons worked with an XBox controller. I also worked on setting up enemy waves, early Unity prototypes, and the game's states. The project's UI were developed using HTML, CSS, and JavaScript."
+		],
+	 "imgs":[
+		{"src":"media/fragileequilibrium_2.png",
+		 "alt":"The player can always choose when to repair the shattering world."},
+		 {"src":"media/fragileequilibrium_1.png",
+		  "alt":"FE offers exciting gameplay in a beautifully designed environment."},
+		 {"src":"media/fragileequilibrium_3.png",
+		  "alt":"Players are armed with an arsenal of weapons that changes based on their playstyle."},
+		 {"src":"media/fragileequilibrium_4.png",
+		  "alt":"Players are constantly dealing with enemies on one side of the screen and the fracturing world on the other."}
+		 ],
+	 "link":"https://www.facebook.com/fragileeq/",
+	 "link_description":"Click here for the game's Facebook page.",
+     "languages":"HTML, CSS, JS"
+	},
+	 
+	{"name":"Map of Global Surface Temperature by Year",
+	 "dates":"November 2016 - December 2016",
+	 "description":[
+		"This project shows the surface temperature for each country by year on a color coded map and includes information about natural disasters. The user controls which year is being shown by using a slider, and extra information about each country (a line graph depicting the rise in surface temperature and natural disasters for that year) can be seen when the user clicks on a country.",
+		"I created the slider, made the line graphs, and added naturual disaster info where necessary. The project was done using HTML, CSS, and JavaScript specifically using d3.js. Information was parsed from Berkley Earth and the International Disaster Database."
+		],
+	 "imgs":[
+		{"src":"media/globaltemp_1.png",
+		 "alt":"Users can see the average surface temperature for each country between 1750 and 2013 using the easy-to-read key."},
+		{"src":"media/globaltemp_2.png",
+		 "alt":"Clicking on a country will show a graph of its average surface temperature through time and, sometimes, a list of natural disasters."},
+		{"src":"media/globaltemp_3.png",
+		 "alt":"Some countries have very noticeable rising surface temperatures; others can be harder to see."}
+		 ],
+	 "link":"https://people.rit.edu/cxl2467/dataviz/finalproject/",
+	 "link_description":"Click here for a live version of the map.",
+     "languages":"HTML, CSS, JS, d3.js"
+	},
+    
+    {"name":"Boomshine",
+	 "dates":"October 2015",
+	 "description":[
+		"The project was based on the addicting internet game, Boomshine. The goal of the game is to pop as many circles in each level as possible. This is done by clicking on one circle per level, causing it to expand, and then causing a chain reaction when other circles come into contact with it. The player must pop a certain number of circles per level in order to move on to the next.",
+        "Boomshine was written in JavaScript using the object literal notation under a JavaScript module design pattern. The actual game itself is hosted in an HTML canvas tag."
+		],
+	 "imgs":[
+		{"src":"media/boomshine_1.png",
+		 "alt":"The project was based on the addicting internet game, Boomshine."},
+		{"src":"media/boomshine_2.png",
+		 "alt":"The player must pop a certain number of circles per level in order to move on to the next."},
+		{"src":"media/boomshine_3.png",
+		 "alt":"Clicking one circle causes of chain reaction."},
+		{"src":"media/boomshine_4.png",
+		 "alt":"The accomplishment comes from seeing the entire level light up."}
+		 ],
+     "link":"",
+	 "link_description":"Click here to view the code for this project.",
+     "languages":"HTML, JS (canvas)"
+    },
+
+    {"name":"Canvas Painting App",
+	 "dates":"September 2015",
+	 "description":[
+		"This project is a simple painting app that allows the user to draw pictures with a number of color and tools options including rectangles, circles, lines, and a pencil tool. The app also allows the user to save their work if they're using Google Chrome.",
+        "My Canvas Painting App is written using HTML and JavaScript (and minor CSS) using the HTML canvas tag."
+         ],
+	 "imgs":[
+		{"src":"media/painting_app_1.png",
+		 "alt":"This project is a painting app that allows the user to draw pictures with options."},
+		{"src":"media/painting_app_2.png",
+		 "alt":"The user can even save their masterpieces."}
+		 ],
+	 "link":"https://github.com/elknickyknick/Canvas-Painting-App",
+	 "link_description":"Click here to view the code, or download the code get started on your own masterpieces!",
+     "languages":"HTML, JS (canvas)"
+     }
+]}
