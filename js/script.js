@@ -43,7 +43,7 @@ $(document).ready(function()
         document.getElementById("project_div").innerHTML += featured_projects_html;
         home_page_html = document.getElementById("main_div").innerHTML;
 	}
-	var url = "projects.json";
+	var url = "js/projects.json";
 	xhr.open('GET', url, true);
 	xhr.setRequestHeader("If-Modified-Since", "Mon, 3 Apr 2017 00:00:00 EST");
 	xhr.send();
