@@ -1,0 +1,95 @@
+body
+{
+    background: -webkit-linear-gradient(#e3e3e3, #0c0c0c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e3e3e3, #0c0c0c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e3e3e3, #0c0c0c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e3e3e3, #0c0c0c); /* Standard syntax (must be last) */
+}
+body a
+{
+    color: #00bbbb;
+}
+
+/***This section is for the contact_info_div div***/
+#contact_info_div
+{
+	display: table;
+	margin: 115px auto 175px auto;
+}
+#contact_info_div h1
+{
+	font-size: 22pt;
+}
+#contact_info_div p
+{
+	font-size: 11.5pt;
+}
+#contact-info
+{
+	margin: 5pt 0;
+}
+
+/***The following CSS is for the main content including
+    the About Me and Project sections              ***/
+#main_div
+{
+	width: 92%;
+	display: block;
+	margin: 0 auto;
+	padding: 0.85%;
+}
+.content_title
+{
+    padding: 1.5px 3px;
+	font-size: 20pt;
+}
+.content_p
+{
+	margin: 12pt 0;
+	font-size: 12.25pt;
+	line-height: 15pt;
+}
+.project_name
+{
+	font-size: 19.25pt;
+}
+.project_dates
+{
+	margin: 0 0 14pt 0;
+	font-size: 10.35pt;
+}
+.project_image
+{
+	width: 100%;
+	margin: 10px 0 0 0;
+}
+.project_link
+{
+	margin-bottom: 40px;
+	font-size: 12pt;	
+}
+.more_projects_button
+{
+    color: #00bbbb;
+}
+#home_button
+{
+    color: #00bbbb;
+}
+
+/***This section is for the project thumbnail page***/
+.project_thumbnail
+{
+    margin: 22px 0 10px 0;
+}
+.project_thumbnail_name
+{
+    font-size: 17pt;
+    font-weight: 600;
+}
+
+/***This section is for the footer***/
+#footer
+{
+	font-size: 10.25pt;
+}

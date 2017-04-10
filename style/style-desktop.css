@@ -1,0 +1,213 @@
+body
+{
+	background-image: url("media/inspire_5.jpg");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+    background-position: center; 
+	background-size: cover;
+}
+body a
+{
+	color: #0c0c0c;
+}
+body a:hover
+{
+	color: #00bbbb;
+}
+#content
+{
+	z-index: 1;
+}
+
+#background_image_cover
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: white;
+	z-index: -1;
+}
+/***This section is for the image gallery***/
+#image_gallery
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(227,227,227,0.95);
+	z-index: 2;
+}
+#exit_icon
+{
+    width: 30px;
+    margin: 10px;
+    position: absolute;
+    opacity: 0.33;
+ }
+ #exit_icon:hover
+ {
+     opacity: 0.55;
+     cursor: pointer;
+ }
+#image_gallery_title
+{
+    width: 90%;
+	margin: 1% auto;
+	text-align: center;
+    font-size: 17pt;
+    font-weight: 600;
+}
+#image_holder
+{
+	height: 77%;
+	display: block;
+	margin: 1% auto;
+}
+#image_holder:hover
+{
+	cursor: pointer;
+}
+#image_gallery_icons
+{
+	display: table;
+	margin: 1% auto 0 auto;
+}
+.anIcon
+{
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin: 0 10px;
+	border-radius: 50%;
+	border: 5px solid #0c0c0c;
+}
+.anIcon:hover
+{
+	border-color: #00bbbb;
+	cursor: pointer;
+}
+#selectedImage
+{
+	background-color: #0c0c0c;
+}
+
+/***This section is for the contact_info_div div***/
+#contact_info_div
+{
+	display: inline-block;
+	margin: 185px 0 215px 14%;
+}
+#contact_info_div h1
+{
+	font-size: 30pt;
+}
+#contact_info_div p
+{
+	font-size: 13pt;
+}
+
+/***The following CSS is for the main content including
+    the About Me and Project sections              ***/
+#main_div
+{
+	width: 86%;
+	padding: 1.5%;
+}
+.content_title
+{
+    padding: 7px;
+	font-size: 27.5pt;
+}
+.content_p
+{
+	margin: 8pt 0;
+	font-size: 14.5pt;
+}
+project_page_name
+{
+    padding: 7px;
+}
+.project_name
+{
+	font-size: 26pt;
+}
+.project_dates
+{
+	margin: 0 0 14pt 0;
+	font-size: 14.35pt;
+}
+.project_image
+{
+	width: 27%;
+	margin: 0 3% 0 1.5%;
+}
+.project_image:hover
+{
+	cursor: pointer;
+}
+.project_link
+{
+	margin-bottom: 30px;
+	font-size: 14.5pt;	
+}
+.more_projects_button
+{
+    display: inline-block;
+    font-size: 14.5pt;
+}
+.more_projects_button:hover
+{
+    color: #00bbbb;
+    cursor: pointer;
+}
+
+/***This section is for the projct thumbnails***/
+#thumbnail_holder
+{
+    display: table;
+}
+.project_thumbnail
+{
+    width: 38%;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.project_thumbnail p
+{
+    padding: 3px;
+}
+.project_thumbnail:hover
+{
+    cursor: pointer;
+}
+.project_thumbnail_name
+{
+    height: 17pt;
+    font-size: 17pt;
+    font-weight: 600;
+    overflow: hidden;
+}
+.project_thumbnail_daterange
+{
+    font-size: 14.5pt;
+}
+.project_thumbnail_languages
+{
+    font-size: 14.5pt;
+}
+#home_button
+{
+    display: inline-block;
+    font-size: 14.5pt;
+}
+#home_button:hover
+{
+    color: #00bbbb;
+    cursor: pointer;
+}
+
+/***This section is for the footer***/
+#footer
+{
+    font-size: 11.5pt;
+}

@@ -1,1 +1,92 @@
+body
+{
+    width: 100%;
+    height: initial;
+    margin: 0;
+    font-family: sans-serif;
+    color: #0c0c0c;
+    background-color: #e3e3e3;
+}
+#main_div
+{
+    background-color: #e3e3e3;
+    color: #0c0c0c;
+}
+#background_image_cover
+{
+    display: none;
+}
+#image_gallery
+{
+    display: none;
+}
+#contact_info_div
+{
+    padding: 0.75% 1.5%;
+    background-color: #e3e3e3;
+}
+#contact_info_div h1
+{
+    margin: 0;
+}
+#contact_info_div p
+{
+    margin: 0;
+}
+#contact_info_div
+{
+    background-color: #e3e3e3;
+}
+.content_title
+{
+    margin: 0 0 -3px 0;
+    background-color: #0c0c0c;
+    color: #e3e3e3;
+}
+.project_name
+{
+    margin: 0;
+}
 
+/***This section is for the project thumbnail page***/
+.project_thumbnail p
+{
+    margin: 0;
+    background-color: #0c0c0c;
+    color: #e3e3e3;
+}
+.project_thumbnail_background_image
+{
+    height: 100px;
+	background-repeat: no-repeat;
+    background-position: center; 
+	background-size: cover;
+}
+.project_page_name
+{
+    background-color: #0c0c0c;
+    color: #e3e3e3;
+}
+
+/***This section is for the footer***/
+#footer
+{
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    background-color: #0c0c0c;
+    color: #e3e3e3;
+}
+#footer p
+{
+    margin: 1.5% 0.75% 0 0.75%;
+}
+#footer_left
+{
+    float: left;
+}
+#footer_right
+{
+    text-align: right;
+    float: right;
+}
