@@ -201,8 +201,16 @@ function drawAllProjectThumbnails(all_projects_array)
             var project_thumbnail_margin_right = "";
             if(g%2 == 0)
             {
-                project_thumbnail_margin_left = "8%";
-                project_thumbnail_margin_right = "4%";
+                if(g == all_projects_array.length -1)
+                {
+                    project_thumbnail_margin_left = "31%";
+                    project_thumbnail_margin_right = "31%";
+                }
+                else
+                {
+                    project_thumbnail_margin_left = "8%";
+                    project_thumbnail_margin_right = "4%";
+                }
             }
             else
             {
@@ -239,8 +247,12 @@ function drawSelectedProjectPage(all_projects_array, selected_project)
   	{
  	     selected_project_html += "<img class='project_image' src='" + all_projects_array[selected_project].imgs[i].src + "' " + "alt='" + all_projects_array[selected_project].imgs[i].alt + "' />";
     }
-   selected_project_html += "<p class='project_link'><a href='" + all_projects_array[selected_project].link + "' target='_blank'>" + all_projects_array[selected_project].link_description + "</a></p>";
-   return selected_project_html;
+    if(all_projects_array[selected_project].link)
+    {
+        //---Unfortunately, I don't currently have constant proper access to Github so I dont have the ability to have links to all my work.
+        selected_project_html += "<p class='project_link'><a href='" + all_projects_array[selected_project].link + "' target='_blank'>" + all_projects_array[selected_project].link_description + "</a></p>";
+    }
+    return selected_project_html;
 }
 
 //-----Functions for image gallery on desktop layout-----//

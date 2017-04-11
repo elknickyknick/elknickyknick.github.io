@@ -15,7 +15,6 @@
         {"src": "media/streetfighterapp_dhalsimpage.jpg",
          "alt":"Each character page also features a section showing the character's special moves and how they can be executed."}
          ],
-	 "link":"",
 	 "link_description":"Click here to view the code, or download it and try it for yourself.",
      "languages":"React.js"
     },
@@ -81,6 +80,26 @@
      "languages":"HTML, CSS, JS, d3.js"
 	},
     
+    {"name":"When Rochester Was Royal Site",
+	 "dates":"March 2016",
+	 "description":[
+		"In March 2015, the students of RIT's museum studies major presented an exhibit about Rochester's old professional basketball team the Rochester Royals. The exhibit looked into the history of the team, the reason they had to leave Rochester, the life story of their manager Les Harrison, and a general look into the history of race in basketball - the Rochester Royals had one of the first African American basketball players.",
+        "With another student, I worked on implementing content provided by other students into the Wordpress site. We also implemented an image gallery onto the site. "],
+	 "imgs":[
+		{"src":"media/royalsexhibit_homepage.png",
+		 "alt":"I worked on a Wordpress website for an exhibit presented by the museum studies students at RIT."},
+		{"src":"media/royalsexhibit_pages.png",
+		 "alt":"We had multiple pages for the different case studies and stories the students wanted presented."},
+        {"src":"media/royalsexhibit_maindisplay.png",
+		 "alt":"With another student, I worked on implementing the content and CSS into the Wordpress."},
+		{"src":"media/royalsexhibit_lesharrison.png",
+		 "alt":"For the project, we collected various pictures of the team and had a photo gallery on the site."}
+		 ],
+	 "link":"https://royalsexhibit.wordpress.com/",
+	 "link_description":"The exhibit's official site can been seen here.",
+     "languages":"HTML, CSS (Wordpress)"
+    },
+
     {"name":"Boomshine",
 	 "dates":"October 2015",
 	 "description":[
@@ -97,7 +116,6 @@
 		{"src":"media/boomshine_4.png",
 		 "alt":"The accomplishment comes from seeing the entire level light up."}
 		 ],
-     "link":"",
 	 "link_description":"Click here to view the code for this project.",
      "languages":"HTML, JS (canvas)"
     },
