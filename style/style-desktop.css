@@ -71,7 +71,7 @@ body a:hover
 	display: table;
 	margin: 1% auto 0 auto;
 }
-.anIcon
+.image_galley_icon
 {
 	width: 15px;
 	height: 15px;
@@ -80,12 +80,12 @@ body a:hover
 	border-radius: 50%;
 	border: 5px solid #0c0c0c;
 }
-.anIcon:hover
+.image_galley_icon:hover
 {
 	border-color: #00bbbb;
 	cursor: pointer;
 }
-#selectedImage
+#image_galley_icon_selected
 {
 	background-color: #0c0c0c;
 }
