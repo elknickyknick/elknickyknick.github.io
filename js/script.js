@@ -64,8 +64,11 @@ $(document).ready(function()
     });
     $("#main_div").on("click", ".project_thumbnail", function(e)
     {
+        //---This opens uop information about a selected project
 		var selected_project_html = "";
-    	selected_project_html += drawSelectedProjectPage(my_projects, e.currentTarget.id)
+        var selected_project_index = $(".project_thumbnail").index(this);
+        console.log(selected_project_index);
+    	selected_project_html += drawSelectedProjectPage(my_projects, selected_project_index)
 		selected_project_html += "<p class='more_projects_button'><u>Click here to see all the projects.</u></p>";
 		document.getElementById('main_div').innerHTML = selected_project_html;
     });
@@ -133,16 +136,16 @@ $(document).ready(function()
 			document.getElementById("image_gallery").style.display = "block";
 			disableScroll();
 		});
-        
-		$("#image_gallery").on("click", ".anIcon", function(e)
+       $("#image_gallery").on('click', ".image_galley_icon", function(e)
 		{
-			if(e.target.id != "selectedImage")
-			{
-                selected_image = e.target.id;
-                document.getElementById("image_gallery_title").innerHTML = images_in_gallery[e.target.id].alt;
-				document.getElementById("image_holder").src = images_in_gallery[e.target.id].src;
-				document.getElementById("image_gallery_icons").innerHTML = drawImageGalleryIcons(images_in_gallery, e.target.id);
-			}
+            //---This changes which image is being shown based on the index
+            if(e.target.id != "image_galley_icon_selected")
+            {
+                var selected_image_index = $(".image_galley_icon").index(this);
+                document.getElementById("image_gallery_title").innerHTML = images_in_gallery[selected_image_index].alt;
+				document.getElementById("image_holder").src = images_in_gallery[selected_image_index].src;
+				document.getElementById("image_gallery_icons").innerHTML = drawImageGalleryIcons(images_in_gallery, selected_image_index);
+            }
 		});
         $("#image_gallery").on("click", "#image_holder", function()
 		{
@@ -160,6 +163,7 @@ $(document).ready(function()
 		{
 			//---This closes the gallery
 			document.getElementById("image_gallery").style.display = "none";
+            document.getElementById("image_gallery").innerHTML = "";
             images_in_gallery = [];
             selected_image = null;
 			enableScroll();
@@ -221,7 +225,7 @@ function drawAllProjectThumbnails(all_projects_array)
         }
         else
         {
-            all_project_thumbnails_html += "<div class='project_thumbnail' id=" + g + ">";
+            all_project_thumbnails_html += "<div class='project_thumbnail'>";
         }
         all_project_thumbnails_html += "<div class='project_thumbnail_info'>";
         all_project_thumbnails_html += "<p class='project_thumbnail_name'>" + all_projects_array[g].name + "</p>";
@@ -263,11 +267,11 @@ function drawImageGalleryIcons(set_images, selected_image)
 	{
 		if(x == selected_image)
 		{
-			image_gallery_icons_html += "<div class='anIcon' id='selectedImage'></div>";
+			image_gallery_icons_html += "<div class='image_galley_icon' id='image_galley_icon_selected'></div>";
 		}
 		else
 		{
-			image_gallery_icons_html += "<div class='anIcon' id='" + x + "'></div>";
+			image_gallery_icons_html += "<div class='image_galley_icon'></div>";
 		}
 	}
 	return image_gallery_icons_html;
