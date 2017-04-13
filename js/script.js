@@ -253,7 +253,6 @@ function drawSelectedProjectPage(all_projects_array, selected_project)
     }
     if(all_projects_array[selected_project].link)
     {
-        //---Unfortunately, I don't currently have constant proper access to Github so I dont have the ability to have links to all my work.
         selected_project_html += "<p class='project_link'><a href='" + all_projects_array[selected_project].link + "' target='_blank'>" + all_projects_array[selected_project].link_description + "</a></p>";
     }
     return selected_project_html;

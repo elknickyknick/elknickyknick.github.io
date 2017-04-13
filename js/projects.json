@@ -15,6 +15,7 @@
         {"src": "media/streetfighterapp_dhalsimpage.jpg",
          "alt":"Each character page also features a section showing the character's special moves and how they can be executed."}
          ],
+	 "link":"https://github.com/elknickyknick/Street-Fighter-II-Character-App",
 	 "link_description":"Click here to view the code, or download it and try it for yourself.",
      "languages":"React.js"
     },
@@ -116,7 +117,8 @@
 		{"src":"media/boomshine_4.png",
 		 "alt":"The accomplishment comes from seeing the entire level light up."}
 		 ],
-	 "link_description":"Click here to view the code for this project.",
+	 "link":"https://github.com/elknickyknick/Boomshine",
+	 "link_description":"Click here to view the code for this project, or download it and try it for yourself.",
      "languages":"HTML, JS (canvas)"
     },
 
