@@ -110,11 +110,11 @@ body a:hover
 #main_div
 {
 	width: 86%;
-	padding: 1.5%;
+    margin: 0 auto;
+	padding: 4%;
 }
 .content_title
 {
-    padding: 7px;
 	font-size: 27.5pt;
 }
 .content_p
@@ -137,8 +137,8 @@ project_page_name
 }
 .project_image
 {
-	width: 27%;
-	margin: 0 3% 0 1.5%;
+	width: 33%;
+	margin: 0 0.16666665%;
 }
 .project_image:hover
 {
